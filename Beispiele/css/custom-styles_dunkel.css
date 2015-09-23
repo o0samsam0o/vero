@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Anton|Sonsie+One|Lobster|Fredericka+the+Great);
+
+body {
+  padding-top: 0px;
+  color: white;
+  background-color: #303030;
+  /*background-image: url(../img/wavegrid.png);*/
+}
+
+.top_line {
+  height: 5px;
+  background-color:  #F08A00;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.page-header {
+  height: 100px;
+  padding-bottom: 20px;
+  margin: 15px 0 0 0;
+  border-bottom: none;
+}
+
+.page-header h1 {
+  color: #F08A00;
+
+  font-family: 'Lobster', cursive;
+  font-size: 63px;
+}
+
+.head_phone {
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+
+.navbar {
+  margin-top: 0;
+  border-radius: 0;
+}
+
+.jumbotron {
+  margin: 0 100px;
+  border-radius: 15px;
+  color: #404040;
+}
+
+.jumbotron h1 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #777;
+  font-family: 'Lobster', cursive;
+}
+
+.jumbotron img {
+  padding: 0;
+}
+
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.marketing {
+  padding-left: 200px;
+}
+
+.marketing h4 {
+  color: #F08A00;
+  font-family: 'Lobster', cursive;
+  }
+
+.lead {
+  text-align: left;
+}

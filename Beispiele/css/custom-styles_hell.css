@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,300,200,500,600,700,800);
+
+body {
+  padding-top: 0px;
+  color: #333;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Dosis', sans-serif;
+  color: #333;
+  font-size: 18px;
+  /*background-image: url(../img/wavegrid.png);*/
+}
+
+.top_line {
+  height: 5px;
+  background-color:  #F08A00;
+  margin-top: 0px;
+}
+
+.page-header {
+  height: 100px;
+  margin-top: 0;
+ margin-bottom: 30px;
+  border-bottom: none;
+}
+
+.page-header h1 {
+  color: #F08A00;
+  font-size: 100px;
+  margin: 0;
+}
+
+.navbar-brand {
+  margin-top: 15px;
+}
+
+.navbar {
+  margin-top: 0;
+  border-radius: 0;
+}
+
+.jumbotron {
+  margin: 0 100px;
+  border-radius: 15px;
+}
+
+.jumbotron h1 {
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #F08A00;
+}
+
+.jumbotron img {
+  padding: 0;
+}
+
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.marketing {
+  padding: 0 100px;
+}
+
+.marketing h4 {
+  color: #F08A00;
+  font-size: 24px;
+  font-weight: 500;
+  }
+
+.marketing p {
+  opacity: 0.75;
+}
+
+.lead {
+  text-align: left;
+}
