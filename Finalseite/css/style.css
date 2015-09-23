@@ -65,24 +65,20 @@ li.active {
     color: #F08A00;
 }
 
-.header{
- height: 50px;
+
+.navbar-brand{
+	margin: 0;
+	padding: 0 20px;
+}
+
+.navbar-brand h2{
+	margin-top: 10px;
+	color: #F08A00;
+	font-weight: bold;
 }
 
 .navbar .container {
 	background-color: transparent;
-}
-
-.navbar-brand {
-	height: 50px;
-}
-
-.navbar-custom {
-    margin-bottom: 0;
-    height: auto;
-    border: none;
-    border-radius: 0;
-    background: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a{
