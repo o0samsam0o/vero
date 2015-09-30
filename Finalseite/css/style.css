@@ -42,6 +42,7 @@ html {
 
 a {
 	text-decoration: none;
+	font-size: 18px;
 }
 
 /* unvisited link */
@@ -75,6 +76,11 @@ li.active {
 	margin-top: 10px;
 	color: #F08A00;
 	font-weight: bold;
+	float: left;
+}
+
+.navbar-brand img{
+	height: 50px; 
 }
 
 .navbar .container {
@@ -151,6 +157,10 @@ li.active {
 	font-size: 18px;
 	line-height: 50px;
 
+}
+
+.table-adress{
+	padding-left: 40px;
 }
 
  #kontakt table {
@@ -262,9 +272,16 @@ hr {
 	box-shadow: 0 1px 3px rgba(0,0,0,0.6), 0 0 30px rgba(0,0,0,0.25);
 }
 
+.gradient{
+	background: -webkit-linear-gradient(rgba(187,185,185,0.3), rgba(187,185,185,0)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(187,185,185,0.3), rgba(187,185,185,0)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(187,185,185,0.3), rgba(187,185,185,0)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(187,185,185,0.3), rgba(187,185,185,0)); /* Standard syntax */
+}
+
 footer {
     height: 107px;
     padding: 20px;
-    position: relative;
-
+    position: relative;   
+    margin: 0 -15px;
 }

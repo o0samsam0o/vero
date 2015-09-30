@@ -3,12 +3,8 @@
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 100) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-        $(".navbar-brand h2").removeClass("hidden");
-        $(".navbar-brand img").addClass("hidden");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".navbar-brand img").removeClass("hidden");
-        $(".navbar-brand h2").addClass("hidden");       
     }
 });
 
