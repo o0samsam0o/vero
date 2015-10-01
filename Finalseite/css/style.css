@@ -46,17 +46,17 @@ a {
 }
 
 /* unvisited link */
-a:link {
+li a:link {
     color: lightgray;
 }
 
 /* visited link */
-a:visited {
+li a:visited {
     color: lightgray;
 }
 
 /* mouse over link */
-a:hover {
+li a:hover {
     color: #FFF;
     text-decoration: none;
 }
